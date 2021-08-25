@@ -5,7 +5,6 @@ interface Props {}
 
 const Base: React.FC<Props> = ({ children }) => {
   const [toggle, setToggle] = useState(false);
-
   return (
     <div className="w-full h-full bg-[#f3f3f3]">
       <div className="h-auto p-8 ">
@@ -15,7 +14,11 @@ const Base: React.FC<Props> = ({ children }) => {
             NAFIZ
           </a>
           <div>
-            <button onClick={() => setToggle(!toggle)} className="text=[#002b36] hover:bg-[#bfbfbf] p-2 md:hidden">
+            <button
+              onClick={() => setToggle(!toggle)}
+              aria-label="navbar toggle"
+              className="text=[#002b36] hover:bg-[#bfbfbf] p-2 md:hidden"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -242,7 +245,7 @@ const Base: React.FC<Props> = ({ children }) => {
                 </a>
               </li>
               <li className="hover:hover:bg-[#bfbfbf] p-1 w-full">
-                <a href="#" className="flex items-center space-x-2">
+                <a href="/contact" className="flex items-center space-x-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-5 h-5"

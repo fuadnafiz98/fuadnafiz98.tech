@@ -3,7 +3,6 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 import profilePicture from "../../public/images/profile.jpg";
 /*
-
           <div className="relative">
             <div className="absolute">
               <div className="w-11/12 md:w-1/3 lg:w-1/4">
@@ -28,7 +27,10 @@ export default function Contact() {
             <h1>Fuad Nafiz</h1>
           </div>
           <div className="mt-12 text-xl font-medium text-justify text-gray-700 lg:text-2xl lg:w-2/3 xl:w-1/2 font-body overflow-ellipsis">
-            <p>My work is mainy in backend. I excelled in Node.js, Express.js and in frontend I worked in React.js.</p>
+            <p>
+              My work is mainly in backend. I have excelled in Node.js, Express.js also in frontend I worked in
+              React.js.
+            </p>
             <p>
               I learned backend web development mainly in nodejs and can develop MERN(MongoDB, Express, React, Nodejs)
               based applications. I also have experience in Competitive Programming and solved more than 500 problems in
