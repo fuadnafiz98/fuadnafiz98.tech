@@ -25,7 +25,7 @@ export default function Home({ yml, json }: { yml: string; json: string }) {
       description="Md.Muhtasim Fuad's personal portfolio website. Muhtasim Fuad is a Full Stack Engineer working on Typescript, Docker, PostgreSQL, Node.js, React.js."
       date="01-08-2021"
       image="/images/banner.jpg"
-      keywords="Md.Muhtasim Fuad, MIST, Full Stack Developer, fuadnafiz98"
+      keywords="Md.Muhtasim Fuad, MIST, fuad, nafiz, fuadnafiz98@gmail.com, Full Stack Developer, fuadnafiz98"
     >
       <div className="relative">
         <div className="absolute hidden mt-0 sm:block left-12">
